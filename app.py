@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 
 from flask import request, render_template
-from joblib import load
+import joblib
 
 
 # In[29]:
